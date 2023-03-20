@@ -16,7 +16,7 @@ int ERRORS(int coder)
 char* readfile(char* string)
 {
 	FILE* file;
-	file = fopen("fig.txt", "r");
+	file = fopen("circle.txt", "r");
 	if(file == NULL)
 	{
 		int coder = 1;
@@ -45,7 +45,6 @@ void getdata(char *string)
 		printf ("%s\n",istr);
 		istr = strtok (NULL,sep);
 	}
-	return 0;
 
 }
 
