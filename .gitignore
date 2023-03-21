@@ -1,0 +1,6 @@
+main 
+*~
+*.swp
+*.save
+*geometry
+*main.c
